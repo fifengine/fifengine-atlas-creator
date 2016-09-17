@@ -6,7 +6,7 @@ This reduces the number of files you need to pack with your game and speeds up r
 
 The tool is written in C++ using Qt.
 
-And was initially developed by kozmo, one of one of our talented GSoC students.
+It was initially developed by kozmo, one of our talented GSoC students.
 
 ### Requirements
 
