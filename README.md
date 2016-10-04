@@ -1,8 +1,8 @@
-Atlas Creator
--------------
+Image Atlas Creator
+-------------------
 
-The Atlas Creator allows users to pack a bunch of single images into an image atlas.
-This reduces the number of files you need to pack with your game and speeds up rendering! 
+The Image Atlas Creator allows users to combine multiple images into an image atlas.
+This reduces the number of files you need to ship with your game and speeds up rendering! 
 
 The tool is written in C++ using Qt.
 
