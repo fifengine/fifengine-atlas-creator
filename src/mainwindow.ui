@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>983</width>
-    <height>635</height>
+    <height>658</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -278,6 +278,10 @@
         <property name="text">
          <string>Save</string>
         </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/image/resources/save.png</normaloff>:/image/resources/save.png</iconset>
+        </property>
        </widget>
        <widget class="QWidget" name="formLayoutWidget_2">
         <property name="geometry">
@@ -285,7 +289,7 @@
           <x>80</x>
           <y>530</y>
           <width>171</width>
-          <height>41</height>
+          <height>43</height>
          </rect>
         </property>
         <layout class="QFormLayout" name="formLayout_2">
