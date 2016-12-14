@@ -74,7 +74,7 @@
        </size>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>2</number>
       </property>
       <widget class="QWidget" name="filesTab">
        <attribute name="title">
@@ -108,6 +108,10 @@
         <property name="text">
          <string>Add textures</string>
         </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/image/resources/plus-button.png</normaloff>:/image/resources/plus-button.png</iconset>
+        </property>
        </widget>
        <widget class="QPushButton" name="removeTexturesPushBtn">
         <property name="geometry">
@@ -120,6 +124,10 @@
         </property>
         <property name="text">
          <string>Remove textures</string>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/image/resources/minus.png</normaloff>:/image/resources/minus.png</iconset>
         </property>
        </widget>
        <widget class="QCheckBox" name="showFullPathCheckBox">
@@ -146,6 +154,10 @@
         </property>
         <property name="text">
          <string>Add directory</string>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/image/resources/blue-folder-plus.png</normaloff>:/image/resources/blue-folder-plus.png</iconset>
         </property>
        </widget>
        <widget class="QPushButton" name="disassemblePushBtn">
@@ -379,7 +391,7 @@
         </property>
         <property name="icon">
          <iconset resource="resources.qrc">
-          <normaloff>:/image/resources/remove.png</normaloff>:/image/resources/remove.png</iconset>
+          <normaloff>:/image/resources/minus.png</normaloff>:/image/resources/minus.png</iconset>
         </property>
        </widget>
        <widget class="QPushButton" name="addObjectPushBtn">
@@ -396,7 +408,7 @@
         </property>
         <property name="icon">
          <iconset resource="resources.qrc">
-          <normaloff>:/image/resources/add.png</normaloff>:/image/resources/add.png</iconset>
+          <normaloff>:/image/resources/plus-button.png</normaloff>:/image/resources/plus-button.png</iconset>
         </property>
        </widget>
       </widget>

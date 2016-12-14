@@ -1,7 +1,8 @@
 <RCC>
-    <qresource prefix="/image">
-        <file>resources/add.png</file>
-        <file>resources/remove.png</file>
-        <file>resources/save.png</file>
-    </qresource>
+  <qresource prefix="/image">
+    <file>resources/blue-folder-plus.png</file>
+    <file>resources/minus.png</file>
+    <file>resources/plus-button.png</file>
+    <file>resources/save.png</file>
+  </qresource>
 </RCC>

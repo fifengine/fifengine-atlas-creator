@@ -1,0 +1,9 @@
+Icons in src/resources/:
+
+blue-folder-plus.png
+minus.png
+plus-button.png
+
+are under CC-BY-3.0
+https://creativecommons.org/licenses/by/3.0/
+Icons are from: Yusuke Kamiyamane http://p.yusukekamiyamane.com/
