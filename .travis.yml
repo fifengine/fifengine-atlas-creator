@@ -30,13 +30,13 @@ before_install:
 #- if [ $TRAVIS_OS_NAME == osx ]; then brew update && brew install qt4-qmake libqt4-dev; fi
 install:
 - git clone --quiet --depth 1 https://github.com/fifengine/fifengine-atlas-creator.git
-- cd src; qmake-qt4
+- cd src; qmake
 - make
 - sudo make install
 - cd ..
 script:
 - cd ..
-- cd src; qmake-qt4
+- cd src; qmake
 - ls -alh .
 - make
 - sudo make install
