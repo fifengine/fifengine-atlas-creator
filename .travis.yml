@@ -19,14 +19,13 @@ git:
 addons:
   apt:
     packages:
-    - qt4-qmake
-    - libqt4-dev
     - qt5-qmake
     - qtbase5-dev
     - freeglut3-dev
+    - qt5-default
 before_install:
 - if [ $TRAVIS_OS_NAME == linux ]; then sudo apt-get -qq update && sudo apt-get install
-  -y qt4-qmake libqt4-dev qt5-qmake qtbase5-dev freeglut3-dev; fi
+  -y qt5-qmake qtbase5-dev freeglut3-dev qt5-default; fi
 #- if [ $TRAVIS_OS_NAME == osx ]; then brew update && brew install qt4-qmake libqt4-dev; fi
 install:
 - git clone --quiet --depth 1 https://github.com/fifengine/fifengine-atlas-creator.git
