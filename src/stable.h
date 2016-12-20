@@ -35,7 +35,7 @@
 #include <QDialog>
 #include <QMouseEvent>
 #include <QTime>
-#include <QtGui/QApplication>
+#include <QApplication>
 
 #include <vector>
 #include <cassert>
