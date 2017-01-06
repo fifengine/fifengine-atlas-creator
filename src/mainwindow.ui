@@ -33,7 +33,7 @@
        <enum>QLayout::SetDefaultConstraint</enum>
       </property>
       <item>
-       <widget class="GLWidget" name="previewWidget" native="true">
+       <widget class="OpenGLWidget" name="previewWidget" native="true">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
           <horstretch>0</horstretch>
@@ -74,7 +74,7 @@
        </size>
       </property>
       <property name="currentIndex">
-       <number>2</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="filesTab">
        <attribute name="title">
@@ -184,7 +184,7 @@
           <x>10</x>
           <y>90</y>
           <width>341</width>
-          <height>141</height>
+          <height>162</height>
          </rect>
         </property>
         <layout class="QFormLayout" name="formLayout">
@@ -301,7 +301,7 @@
           <x>80</x>
           <y>530</y>
           <width>171</width>
-          <height>43</height>
+          <height>48</height>
          </rect>
         </property>
         <layout class="QFormLayout" name="formLayout_2">
@@ -421,7 +421,7 @@
  <layoutdefault spacing="6" margin="11"/>
  <customwidgets>
   <customwidget>
-   <class>GLWidget</class>
+   <class>OpenGLWidget</class>
    <extends>QWidget</extends>
    <header>glwidget.h</header>
    <container>1</container>

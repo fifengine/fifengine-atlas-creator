@@ -31,7 +31,7 @@
 #include <QFileInfo>
 #include <QDir>
 #include <QDirIterator>
-#include <QGLWidget>
+#include <QOpenGLWidget>
 #include <QDialog>
 #include <QMouseEvent>
 #include <QTime>
