@@ -33,7 +33,7 @@ RESOURCES += resources.qrc
 
 win32:CONFIG(release, debug|release): LIBS += -L$$PWD/freeglut/lib/ -lfreeglut
 else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/freeglut/lib/ -lfreeglutd
-else:unix:!macx: LIBS += -L$$PWD/freeglut/lib/ -lfreeglut
+else:unix:!macx: LIBS += -lglut -lGLU -lGL
 
 INCLUDEPATH += $$PWD/freeglut/include
 DEPENDPATH += $$PWD/freeglut/include
