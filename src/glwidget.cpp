@@ -26,10 +26,10 @@
 #include <QMessageBox>
 #include <QTime>
 //#include <QtOpenGL>
+#include <GL/glut.h>
+#ifdef WIN32
 #include <freeglut/include/GL/glut.h>
-//#ifdef WIN32
-//#include <gl/GLU.h>
-//#endif
+#endif
 
 const int timerInterval = 20;
 
