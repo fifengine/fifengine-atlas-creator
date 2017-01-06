@@ -31,8 +31,8 @@ class GLWidget : public QGLWidget
 {
 	Q_OBJECT
 public:
-	GLWidget(QWidget* parent);
-	virtual ~GLWidget();
+    GLWidget(QWidget* parent);
+    virtual ~GLWidget();
 
 	void resizeGL(int width, int height);
 	void refreshed(QImage const& tex);
@@ -53,7 +53,7 @@ protected:
 	void timerEvent(QTimerEvent* event);
 
 private:
-	float mCam_xpos;
+    float mCam_xpos;
 	float mCam_ypos;
 	float mCam_zpos;
 
