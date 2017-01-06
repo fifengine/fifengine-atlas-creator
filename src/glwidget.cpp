@@ -34,7 +34,7 @@
 const int timerInterval = 20;
 
 GLWidget::GLWidget(QWidget* parent)
-	: QGLWidget(parent), mCam_xpos(-0.5f), mCam_ypos(-0.5f), mCam_zpos(-2.0f),
+	: QOpenGLWidget(parent), mCam_xpos(-0.5f), mCam_ypos(-0.5f), mCam_zpos(-2.0f),
 	showOccupation(false),
 	atlasBlocks(NULL)
 {
